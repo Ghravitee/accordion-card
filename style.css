@@ -250,15 +250,15 @@ h1 {
     }
 
     .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr; */
         background: url("images/bg-pattern-desktop.svg"), white;
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: -490px -220px;
         max-width: 48rem;
         gap: 1rem;
-        padding-right: 4rem;
+        padding-right: 3rem;
     }
 
     .container-text {
@@ -292,11 +292,19 @@ h1 {
         font-size: 1.9rem;
     }
 
+    .desktop {
+        width: 50%;
+    }
+
     .container {
         max-width: 60rem;
         background-position: -600px -270px;
-        padding: 3rem 4rem 3rem 0;
+        padding: 3rem 3rem 3rem 0;
         gap: 2rem;
+    }
+
+    .container-text {
+        width: 35%;
     }
 
     .desktop-image {
